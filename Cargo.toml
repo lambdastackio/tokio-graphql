@@ -1,0 +1,25 @@
+[package]
+name = "tokio-graphql"
+version = "0.1.0"
+authors = ["Chris Jones"]
+license = "Apache-2.0"
+readme = "README.md"
+keywords = ["http2", "hpack", "huffman", "tls", "tokio"]
+repository = "https://github.com/lambdastackio/tokio-graphql"
+homepage = "https://lambdastackio.github.io/tokio-graphql/tokio-graphql"
+documentation = "https://lambdastackio.github.io/tokio-graphql/tokio-graphql"
+description = """
+GraphQL implementation built on top of tokio-http2, topkio-proto and other async libraries.
+"""
+
+[dependencies]
+url = "1"
+term = "0.4"
+clap = "2"
+env_logger = "0.3"
+#lsio = "0"
+rustc-serialize = "0.3"
+#tokio-tls = { git = "https://github.com/tokio-rs/tokio-tls" }
+bitflags = "0"
+byteorder = "0"
+log = "0"
